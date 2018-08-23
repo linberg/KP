@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/linberg/health-monitor-rails.git
+  revision: 0a872a0f917ed9bf54dafd6827aa5adc23ee2ae0
+  specs:
+    health-monitor-rails (8.4.0)
+      rails (>= 4.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -79,8 +86,6 @@ GEM
     ffi (1.9.25)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
-    health-monitor-rails (8.4.0)
-      rails (>= 4.0)
     i18n (1.1.0)
       concurrent-ruby (~> 1.0)
     io-like (0.3.0)
@@ -207,7 +212,7 @@ DEPENDENCIES
   capybara (>= 2.15)
   chromedriver-helper
   coffee-rails (~> 4.2)
-  health-monitor-rails
+  health-monitor-rails!
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   mysql2 (>= 0.4.4, < 0.6.0)
@@ -225,7 +230,7 @@ DEPENDENCIES
   web-console (>= 3.3.0)
 
 RUBY VERSION
-   ruby 2.3.7p456
+   ruby 2.5.1p57
 
 BUNDLED WITH
    1.16.4
