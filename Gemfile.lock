@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/linberg/health-monitor-rails.git
-  revision: 0a872a0f917ed9bf54dafd6827aa5adc23ee2ae0
+  revision: b9f2bc74e87c353a1c3106c94c1aa1e39920d7f2
   specs:
     health-monitor-rails (8.4.0)
       rails (>= 4.0)
